@@ -1,32 +1,32 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Baserun",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#818cf8",
+    "light": "#A5B4FC",
+    "dark": "#6366F1",
     "background": {
-      "dark": "#090014"
+      "dark": "#0E1015"
     },
     "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "from": "#6366F1",
+      "to": "#818cf8"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Book a demo",
+      "url": "https://calendly.com/baserun/30min"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get started",
+    "url": "https://baserun.ai/sign-up"
   },
   "tabs": [
     {
@@ -36,29 +36,20 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Python SDK",
+      "icon": "python",
+      "url": "https://pypi.org/project/baserun"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "TypeScript SDK",
+      "icon": "npm",
+      "url": "https://www.npmjs.com/package/baserun"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": ["introduction", "python", "typescript"]
     },
     {
       "group": "API Documentation",
@@ -75,8 +66,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://discord.gg/xEPFsvSmkb",
+    "twitter": "https://twitter.com/baserunai",
+    "linkedin": "https://www.linkedin.com/company/baserun"
   }
 }
